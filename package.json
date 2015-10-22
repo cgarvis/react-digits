@@ -2,6 +2,12 @@
   "name": "react-digits",
   "version": "1.0.0",
   "description": "React component for Twitter's Digits",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cgarvis/react-digits.git"
+  },
+  "homepage": "https://github.com/cgarvis/react-digits",
+  "bugs": "https://github.com/cgarvis/react-digits/issues",
   "main": "lib/index.js",
   "scripts": {
     "build": "babel --out-dir lib/ src/",
