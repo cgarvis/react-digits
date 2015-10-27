@@ -9,6 +9,16 @@
   "homepage": "https://github.com/cgarvis/react-digits",
   "bugs": "https://github.com/cgarvis/react-digits/issues",
   "main": "lib/index.js",
+  "keywords": [
+    "react",
+    "react digits",
+    "react fabric",
+    "react twitter",
+    "react-component",
+    "digits",
+    "fabric",
+    "twitter"
+  ],
   "scripts": {
     "build": "babel --out-dir lib/ src/",
     "prepublish": "npm run build"
