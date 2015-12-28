@@ -69,6 +69,7 @@ export default class DigitsButton extends Component {
 
   handleLogin(loginResponse) {
     this.props.onLogin(loginResponse)
+    this.setState({ signingIn: false })
   }
 
   handleLoginFailure(loginResponse) {
